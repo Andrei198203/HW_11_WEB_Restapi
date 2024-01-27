@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-web-11-for-cheking-k"
+version = "0.1.0"
+description = ""
+authors = ["Andrei198203 <buzin.andrei@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+asyncpg = "^0.29.0"
+uvicorn = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
